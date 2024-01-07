@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Kanit:wght@100&family=Pattaya&family=Playpen+Sans&family=Roboto+Condensed:wght@300&family=Sriracha&family=Vina+Sans&family=Young+Serif&display=swap');
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    background-color: #fff;
+}
+
+.main-navigatorBar {
+    border: #fff 1px solid;
+    position: fixed;
+    width: 101%;
+    height: 6rem;
+    margin-top: -1px;
+    margin-left: -1px;
+    background-color: #000000;
+    transition: 0.4s;
+}
+
+.a-logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: #808080 4px 0 4px;
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+    transition: 0.3s;
+}
+
+.a-home {
+    position: relative;
+    top: 2rem;
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    left: 28rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.a-home:hover, .a-about:hover, .a-contact:hover, .a-logout:hover {
+    color: #6b6b6b;
+}
+
+.a-about {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top: 2rem;
+    left: 31rem;
+    transition: 0.3s;
+}
+
+.a-contact {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top: 2rem;
+    left: 34rem;
+    transition: 0.3s;
+}
+
+.a-logout {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top: 2rem;
+    left: 37rem;
+    transition: 0.3s;
+}
+
+/* Responsive Mobile (Size Small) */
+@media screen and (min-width: 320px){
+    .main-navigatorBar {
+        height: 42%;
+    }
+
+    .a-logo {
+        left: 3.5rem;
+    }
+
+    .a-home {
+        left: -5.5rem; 
+        top: 6rem;
+    }
+
+    .a-about {
+        left: 7.5rem; 
+        top: 8rem;
+    }
+
+    .a-contact {
+        left: 1rem;
+        top: 12rem;
+    }
+
+    .a-logout {
+        left: 7rem;
+        top: 15rem;
+    }
+}
+
+/* Responsive Mobile (Size Medium) */
+@media screen and (min-width: 375px){
+    .a-logo {
+        left: 5.4rem;
+    }
+
+    .a-home {
+        top: 6rem;
+        left: -4rem;
+    }
+
+    .a-about {
+        top: 8rem;
+        left: 9rem;
+    }
+
+    .a-contact {
+        top: 12rem;
+        left: 2.2rem;
+    }
+
+    .a-logout {
+        top: 16rem;
+        left: -5rem;
+    }
+}
+
+/* Responsive Mobile (Size Large) */
+@media screen and (min-width: 425px){
+    .a-logo {
+        left: 6.7rem;
+    }
+
+    .a-home {
+        left: -2rem;
+    }
+
+    .a-about {
+        left: -7.5rem;
+        top: 10rem;
+    }
+
+    .a-contact {
+        left: 10rem;
+        top: 12rem;
+    }
+
+    .a-logout {
+        left: 2.5rem;
+        top: 16rem;
+    }
+}
+
+/* Responsive Tablet */
+@media screen and (min-width: 768px){
+    .a-logo {
+        left: 18.5rem;
+    }
+
+    .a-home {
+        left: 9.5rem;
+    }
+
+    .a-about {
+        left: 4rem;
+    }
+
+    .a-contact{left: -2.9rem; top: 14rem;}
+
+    .a-logout {left: -10rem; top: 18rem;}
+}
+
+/* Responsive Laptop (Size Medium) */
+@media screen and (min-width: 1024px){
+    .main-navigatorBar {
+        height: 11.5%;
+    }
+
+    .a-logo {
+        left: 2rem;
+    }
+
+    .a-home {
+        left: 25rem;
+        top: 2rem;
+        font-size: 20px;
+    }
+
+    .a-about {
+        left: 26rem;
+        top: 2rem;
+        font-size: 20px;
+    }
+
+    .a-contact {
+        left: 27rem;
+        top: 2rem;
+        font-size: 20px;
+    }
+
+    .a-logout {
+        left: 28rem;
+        font-size: 20px;
+        top: 2rem;
+    }
+}
+
+/* Responsive Laptop (Size Large) */
+@media screen and (min-width: 1440px){}
+
+@media screen and (min-width: 1441px){}
